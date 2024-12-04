@@ -1,5 +1,5 @@
 # nextcloudAIO
-How to re-obtain/retreive the Nextcloud AIO admin password #4663
+How to re-obtain the Nextcloud AIO admin password #4663
 
 On remote pc, ssh to login onto dietpi (where nextcloud installed), run:
 
