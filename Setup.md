@@ -53,3 +53,6 @@ DELETE FROM nextcloud.oc_bruteforce_attempts
 You can put a where clause and limit it by IP so that only your login attempts are deleted:
 
 DELETE FROM nextcloud.oc_bruteforce_attempts WHERE ip ="X.X.X.X";
+
+# How To: Set Up Nextcloud + Syncthing Integration
+https://itcamefromtheinternet.com/blog/how-to-setup-nextcloud-syncthing/
