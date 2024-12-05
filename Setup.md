@@ -44,3 +44,12 @@ The server address is “smtp.gmail.com” port 465.
 Create an app password on your gmail account
 
 Use your gmail username without @ and the app password to authenticate.
+
+# Fix "Can not login: too many requests"
+Deleting the content of the table "oc_bruteforce_attempts " on nextcloud database.
+
+DELETE FROM nextcloud.oc_bruteforce_attempts
+
+You can put a where clause and limit it by IP so that only your login attempts are deleted:
+
+DELETE FROM nextcloud.oc_bruteforce_attempts WHERE ip ="X.X.X.X";
